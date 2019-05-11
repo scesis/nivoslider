@@ -3,20 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <title>Untitled Document</title>
-	<link href="css/nivo-slider.css" rel="stylesheet">  <!--Este es el archivo de css-->
+	<link href="css/nivo-slider.css" rel="stylesheet">  <!--Este es el archivo de css u hoja de estilo, las marcas que empiezan igial van juntas ej: link con link y script con script-->
 	<link href="themes/dark/dark.css" rel="stylesheet">   <!--Este es archivo qe aplica los temas, precargados, mejora estetica-->  <!--Aqui se le cambia la ruta a la carpeta de themes o temas-->
 	<script src="js/jquery-1.9.0.min.js"></script>  <!--esto es el jacascript CORE-->
-	<script src="js/jquery.nivo.slider.js"></script> <!--Este es el archivo de -->
-	<script type="text/javascript"> 
-$(window).on('load', function() {
-    $('#slider').nivoSlider(); 
-}); 
-</script>
+	<script src="js/jquery.nivo.slider.js"></script> <!--Este es el archivo de Plugin a instalar -->
+	<script type="text/javascript">   
+	$(window).on('load', function() {
+		$('#slider').nivoSlider(); 
+	}); 
+</script>  <!--Funcion del plugin (conexión entre el html y el javascript)-->
 </head>
 
 <body>
-	<div class="slider-wrapper theme-dark">   <!--Aqui abre div principal para aplcar los estilos-->    <!--Para cambiar los estilos se hace en 2 partes aqui se le cambia el nombre que se le agrego en el aarchivo de de theme en cascadas-->
-	
+	<div class="slider-wrapper theme-dark">   <!--Aqui abre div principal para aplcar los estilos-->    <!--Para cambiar los estilos se hace en 2 partes aqui se le cambia el nombre que se le agrego en el archivo de theme en cascadas tiene que ser el mismo para que funcione-->
+	 
 		<div id="slider" class="nivoSlider"> 
 			
 			<a href="http://youtube.com/watch?v=wi2gqXFrGB0" target="_blank"> <img src="img/nemo.jpg" alt="nemo" title="#nemo" /></a>
