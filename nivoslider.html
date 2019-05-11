@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+	<link href="css/nivo-slider.css" rel="stylesheet">  <!--Este es el archivo de css-->
+	<link href="themes/default/default.css" rel="stylesheet">   <!--Este es archivo qe aplica los temas, ta precargados, para que se vea mejor esteticamente-->
+	<script src="js/jquery-1.9.0.min.js"></script>  <!--esto es el jacascript CORE-->
+	<script src="js/jquery.nivo.slider.js"></script> <!--Este es el archivo de -->
+	<script type="text/javascript"> 
+$(window).on('load', function() {
+    $('#slider').nivoSlider(); 
+}); 
+</script>
+</head>
+
+<body>
+	<div class="slider-wrapper theme-default">   <!--Aqui abre div principal para aplcar los estilos-->
+	
+		<div id="slider" class="nivoSlider"> 
+			
+			<a href="http://youtube.com/watch?v=wi2gqXFrGB0" target="_blank"> <img src="img/nemo.jpg" alt="nemo" title="#nemo" /></a>
+    
+		    <a href="http://youtube.com/watch?v=0i5d2oBCYE4" target="_blank"><img src="img/toystory.jpg" alt="toystory" title="#htmlcaption" /></a>     
+   
+			<a href="http://youtube.com/watch?v=SfUoxHUVc7o" target="_blank"><img src="img/up.jpg" alt="up" title="#up" /></a>     
+   
+			<a href="http://youtube.com/watch?v=uM5SFUhP00M" target="_blank"><img src="img/walle.jpg" alt="walle" title="#walle" /></a>
+</div> 
+	<div id="nemo" class="nivo-html-caption">  
+
+		<strong>Nemo </strong> Pelicula de un Pez <em> Dori </em> agua <a href="http://facebook.com/FindingNemoNemo/?epa=SEARCH_BOX" target="_blank"> Facebook</a>. 
+
+	</div>
+		<div id="htmlcaption" class="nivo-html-caption">  
+		
+			<strong>ToyStory </strong> Pelicula de un Juguete <em> infantil </em> aburrida <a href="http://facebook.com/PixarToyStory/" target="_blank"> Facebook</a>. 
+	    </div> 
+		
+	<div>
+		<div id="up" class="nivo-html-caption">  
+		<strong>Up</strong> Pelicula de una pareja <em> de viejitos</em> con lección de vida <a href="http://facebook.com/PixarUp/" target="_blank"> Facebook</a>. 
+		
+		</div>
+		
+    <div>
+		<div id="walle" class="nivo-html-caption">  
+		<strong>Walle</strong> Pelicula de un robot<em> se enamora </em> tierna <a href="http://facebook.com/PixarWallE/" target="_blank"> Facebook</a>. 
+		
+		</div>		
+		
+		
+		
+</div>		<!--Aqui cierra el wrapper pirncipal con estilos-->	
+</body>
+</html>
